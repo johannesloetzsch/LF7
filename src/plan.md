@@ -54,7 +54,7 @@ gantt
  section 5h Do 23.01.
   UART, I²C, SPI              :2025-01-23, 5h
  section 4h Fr 24.01.
-  HTTP, MQTT                  :n2025-01-24, 2h
+  HTTP, MQTT                  :2025-01-24, 2h
   SOL (Vorbereitung Klassenarbeit)  :2025-01-24, 2h
  section 3h Di 28.01.
   Wiederholung                :2025-01-23, 3h
