@@ -121,8 +121,8 @@ gantt
 
 ## Leistungskontrollen
 
-* Soll Notendichte: 7 
-* Minimum Klassenarbeiten (>45min, doppelte Wertung): 2
+* Soll Notendichte: 5 
+* Minimum Klassenarbeiten (>45min, doppelte Wertung): 1
 * Sonstige Noten: >=3
 
 > * **1. Klassenarbeit 05.09.** ~90min (einseitig beschrifteter A4 Notizzettel + 1 einfacher Taschenrechner ohne Binärberechnungen)
