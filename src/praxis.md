@@ -1,6 +1,6 @@
 # Praxis
 
-Material zum erlernen von [**Python**](https://johannesloetzsch.github.io/python-tutorial/getting_started.html)
+Material zum Erlernen von [**Python**](https://johannesloetzsch.github.io/python-tutorial/getting_started.html)
 
 ## Beispielprojekte
 
