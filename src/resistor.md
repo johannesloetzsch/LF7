@@ -49,6 +49,12 @@ Einheit: `Ω = V / A`
 
 => zieht Signalleitung standartmäßig auf gewünschten [Pegel](https://de.wikipedia.org/wiki/Logikpegel#Standardwerte)
 
+Erklärung:
+
+* **Schalter geöffnet:** Dem Strom bleibt nur die Leitung über den Pull-Up/Down-Widerstand. Somit liegt an der Signalleitung der standardmäßig gewünschte Pegel an.
+
+* **Schalter geschlossen:** Es gibt zwei Leitungen über die Strom fließen kann: Den großen Pull-Up/Down-Widerstand und (nahezu) widerstandslosen Leiter mit Schalter. Da der Strom den Weg des geringsten Widerstands nimmt, fließt dieser über den geschlossenen Schalter. Somit liegt an der Signalleitung der am Schalter anliegende Pegel an.
+
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4e/Pull-down-Widerstand_mit_Taster.svg)
 
 
