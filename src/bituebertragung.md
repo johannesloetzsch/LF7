@@ -10,7 +10,7 @@
 
 ![rs-232 oscilloscope](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Rs232_oscilloscope_trace.svg/1280px-Rs232_oscilloscope_trace.svg.png)
 
-Beim Anschließen beachten:
+Beim Anschließen bitte beachten:
 * **Spannungspegel**
 * Baudrate
 * *Parity-Bit*
