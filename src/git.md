@@ -107,7 +107,7 @@ Variante 1:
 
 a) erstellen Sie per "git init" ein neues git Repository
 
-b) legen Sie die Dateien aus ihrem Arduine-Projekt in dem Repository ab
+b) legen Sie die Dateien aus ihrem Arduino-Projekt in dem Repository ab
 
 c) wählen Sie die Daten zum commit aus ("git add") und erstellen Sie einen commit
 
