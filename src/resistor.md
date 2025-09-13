@@ -43,11 +43,17 @@ Einheit: `Ω = V / A`
 >
 > **R<sub>V</sub>** => benötigter Vorwiederstand
 
-> Welchen Wiederstand wählen wir aus, wenn ein Wiederstand benötigter größe nicht vorhanden ist?
+> Welchen Widerstand wählen wir aus, wenn ein Widerstand benötigter Größe nicht vorhanden ist?
 
 ## [Pull-up und Pull-down](https://de.wikipedia.org/wiki/Open_circuit#Pull-down)
 
-=> zieht Signalleitung standartmäßig auf gewünschten [Pegel](https://de.wikipedia.org/wiki/Logikpegel#Standardwerte)
+=> zieht Signalleitung standardmäßig auf gewünschten [Pegel](https://de.wikipedia.org/wiki/Logikpegel#Standardwerte)
+
+Erklärung:
+
+* **Schalter geöffnet:** Dem Strom bleibt nur die Leitung über den Pull-Up/Down-Widerstand. Somit liegt an der Signalleitung der standardmäßig gewünschte Pegel an.
+
+* **Schalter geschlossen:** Es gibt zwei Leitungen über die Strom fließen kann: Den großen Pull-Up/Down-Widerstand und (nahezu) widerstandslosen Leiter mit Schalter. Da der Strom den Weg des geringsten Widerstands nimmt, fließt dieser über den geschlossenen Schalter. Somit liegt an der Signalleitung der am Schalter anliegende Pegel an.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4e/Pull-down-Widerstand_mit_Taster.svg)
 
@@ -58,13 +64,13 @@ Einheit: `Ω = V / A`
 * [ ] Schaltkreis mit LED + Vorwiderstand
   * [ ] Taster einbauen
 * [ ] AND und OR mit 2 Tastern
-* [ ] NOT mit Taster und Pull-up-Wiederstand
+* [ ] NOT mit Taster und Pull-up-Widerstand
   * [ ] 2 verschiedenfarbige LEDs am Ein-/Ausgang
 * [ ] XOR mit 2 „Umschaltern“ bzw. [Jumper wires](https://en.wikipedia.org/wiki/Jump_wire)
 * [ ] AND, OR, NOT mit Transistoren
 
 Zusatzaufgaben:
-* [ ] [XOR und Halbaddieren mit 7 Transistoren](https://www.leisering.net/4bit_va/inhaltsverzeichnis.html#kap06)
+* [ ] [XOR und Halbaddierer mit 7 Transistoren](https://www.leisering.net/4bit_va/inhaltsverzeichnis.html#kap06)
 * [ ] Volladdierer
 
 ### Benötigstes Material pro Gruppe
