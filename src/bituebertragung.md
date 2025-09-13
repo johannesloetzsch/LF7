@@ -9,7 +9,7 @@
 
 Beim Anschließen beachten:
 * **Spannungspegel**
-* Baudrate
+* [Baudrate](https://de.wikipedia.org/wiki/Baud)
 * *Parity-Bit*
 * *Stopp-Bit*
 
