@@ -110,3 +110,24 @@ können den Umgang mit Git vereinfachen. Außerdem gibt es dedizierte Werkzeuge 
 
 Wenn du dein Wissen über Git vertiefen möchtest, lohnt sich ein Blick in das Buch Pro Git von Scott Chacon und Ben Straub.
 Es ist kostenlos online verfügbar, auch in deutscher Übersetzung, unter: https://git-scm.com/book/en/v2.
+
+
+## .gitignore
+
+Eine wichtige Datei in fast jedem Git-Projekt ist die `.gitignore`.  
+Sie legt fest, welche Dateien oder Ordner Git ignorieren soll und somit nicht in das Repository gelangen.  
+Das ist besonders hilfreich für automatisch generierte Dateien, temporäre Dateien oder persönliche Einstellungen deiner Entwicklungsumgebung (z. B. `.idea/` bei WebStorm oder `.vscode/` bei Visual Studio Code).
+
+Dadurch bleibt dein Repository aufgeräumt und enthält nur die wirklich relevanten Projektdateien, die auch für andere nützlich sind.
+
+Ein einfaches Beispiel für eine `.gitignore`- Datei sieht so aus:  
+```
+.idea/
+node_modules/
+*.log
+```
+
+So vermeidest du, dass große oder unnötige Dateien (wie `node_modules`) oder private Konfigurationsdateien ins Repository gelangen. Jede Programmiersprache und jedes Framework hat typische Dateien, die ignoriert werden können – dafür gibt es oft schon fertige `.gitignore`-Vorlagen.
+
+
+
