@@ -52,7 +52,7 @@ gantt
   UART, I2C, SPI              :2025-12-02, 3h
  section Do 04.12. 5
   Wiederholung, Q&A           :2025-12-04, 5h
- section Fr 05.12. 4
+ section Fr 05.12. 8
   Klassenarbeit               :crit, 2025-12-05, 2h
   LF8 REST, Node-RED, OpenAPI, FastAPI (, SQLite, SQL-Injections)      :2025-12-05, 4h
   SOL LF8 Praxis              :crit, 2025-12-05, 2h
@@ -154,7 +154,7 @@ gantt
 >   * [Grundlagen Git](./git.md)
 >     * [DevOps](devops.md)
 
-> * **2. Klassenarbeit 27.03.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
+> * **2. Klassenarbeit 05.12.** (1.+2. UE) ~90min (einseitig beschrifteter A4 Notizzettel)
 >   * Auswahl [Hardwareplatformen und Programmiersprachen](./microcontroller/beispiele.md)
 >   * [Rechnernetze / Topologien](rechnernetze.md)
 >   * [OSI-Modell](osi.md) (insbesondere Physical Layer und anwendungsorientierte Protokolle)
