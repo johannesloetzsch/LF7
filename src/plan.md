@@ -54,14 +54,14 @@ gantt
   Wiederholung, Q&A           :2025-12-04, 5h
  section Fr 05.12. 8
   Klassenarbeit               :crit, 2025-12-05, 2h
-  LF8 REST, Node-RED, OpenAPI, FastAPI (, SQLite, SQL-Injections)      :2025-12-05, 4h
+  LF8 Programmierübung        :2025-12-05, 4h
   SOL LF8 Praxis              :crit, 2025-12-05, 2h
  section Mo 08.12. 3
-  XML, DTD, SOAP              :2025-12-08, 3h
+  JSON, JSON Schema           :2025-12-08, 3h
  section Di 09.12. 3
-  JSON, JSON Schema           :2025-12-09, 3h
+  XML, DTD, SOAP              :2025-12-09, 3h
  section Mi 10.12. 5
-  LF8 Praxis                  :2025-12-10, 5h
+  LF8 REST, Node-RED, OpenAPI, FastAPI (, SQLite, SQL-Injections)  :2025-12-10, 5h
  section Fr 12.12. 8
   LF8 Praxis                  :2025-12-12, 6h
   SOL PV                      :crit, 2025-12-12, 2h
@@ -160,7 +160,7 @@ gantt
 >   * [OSI-Modell](osi.md) (insbesondere Physical Layer und anwendungsorientierte Protokolle)
 >   * [HTTP](http.md), [MQTT](mqtt.md)
 >   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)
->   * Grundlagen Programmierung (Variablen, While, If/Else, Funktionen)
+>   * Grundlagen Programmierung (Variablen, Datenstrukturen, Schleifen, Bedingungen, Funktionen)
 >     * Siehe Programmierbeispiele [Pi](pi.md), [I²C-Beispiel (main.py)](rechnernetze.md#i²c)
 >
 >   => [gemeinsame Notizen (Hedgedoc)](https://hedgedoc.c3d2.de/LF7)
