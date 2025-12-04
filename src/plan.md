@@ -162,6 +162,8 @@ gantt
 >   * [UART](bituebertragung.md#uart), [SPI](rechnernetze.md#spi), [I²C](rechnernetze.md#i²c)
 >   * Grundlagen Programmierung (Variablen, While, If/Else, Funktionen)
 >     * Siehe Programmierbeispiele [Pi](pi.md), [I²C-Beispiel (main.py)](rechnernetze.md#i²c)
+>
+>   => [gemeinsame Notizen (Hedgedoc)](https://hedgedoc.c3d2.de/LF7)
 
 Programmier-Übungsaufgaben:
 * Blink [Pi Pico](https://wokwi.com/projects/300504213470839309), [ESP32](https://wokwi.com/projects/359801682833812481)
