@@ -104,9 +104,9 @@ gantt
  dateFormat YYYY-MM-DD
  axisFormat %d.%m.
  section Do 26.03. 5
-  Funktionsweise Prozessor      :2026-03-26, 5h
+  Docker                        :2026-03-26, 5h
  section Fr 27.03. 6
-  Systemprogrammierung          :2026-03-27, 4h
+  Vorbereitung Praxisprojekt    :2026-03-27, 4h
   SOL Projektplan               :crit, 2026-03-27, 2h
 ```
 
@@ -119,9 +119,8 @@ gantt
   Vorstellung Praxisprojekte    :crit, 2026-05-21, 2h
   Praxis                        :2026-05-21, 3h
  section Fr 22.05. 6
-  Potenzielle Gefahren, Schutzbedarfsanalyse, FMEA  :2026-05-22, 2h
-  Praxis                        :2026-05-22, 2h
-  SOL Projektdokumentation, Schutzbedarfsanalyse    :crit, 2026-05-22, 2h
+  Praxis                        :2026-05-22, 4h
+  SOL Projektdokumentation                          :crit, 2026-05-22, 2h
  section Di 09.06. 6
   Praxis                        :2026-06-09, 6h
  section Mi 10.06. 5

@@ -8,7 +8,14 @@ def example():
     return {"msg": "hello world",
             "answer_to_everything": 6*7}
 
-@app.get("/index.html", response_class=HTMLResponse)
+@app.get("/durchschnitt")
+def durchschnitt(meine_json_liste_mit_zahlen):
+    print(meine_json_liste_mit_zahlen)
+    import json
+    liste_mit_zahlen = json.loads(meine_json_liste_mit_zahlen)
+    return sum(liste_mit_zahlen) / len(liste_mit_zahlen)
+
+@app.get("/", response_class=HTMLResponse)
 def index():
     return """
         <html>
