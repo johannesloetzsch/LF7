@@ -90,7 +90,7 @@ Mit dem Befehl `git push` kannst du deine lokalen Commits an das entfernte Repos
 dir die neuesten Änderungen vom entfernten Repository in dein lokales Repository. Diese beiden Befehle reichen aus,
 damit zwei Personen gemeinsam an einem Repository arbeiten können.
 
-Falls ihr aber gleichzeitig arbeitet oder vergisst, vor neuen Commits ein `git pull` zu machen, fehlen euch die
+Falls ihr aber gleichzeitig arbeitet oder vergesst, vor neuen Commits ein `git pull` zu machen, fehlen euch die
 neuesten Änderungen aus dem entfernten Repository in eurer lokalen Version. Wenn dein lokales Repository schon neuere
 Commits enthält und du es trotzdem mit dem Stand des entfernten Repositorys abgleichen willst, kannst du mit `git fetch`
 die Änderungen holen und dann mit `git rebase origin/branch-name` in deine lokale History einfügen.
