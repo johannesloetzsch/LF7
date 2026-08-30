@@ -1,5 +1,7 @@
 # Praxis
 
+Material zum Erlernen von [**Python**](https://johannesloetzsch.github.io/python-tutorial/getting_started.html)
+
 > **💡** [Überlegungen](praxiseinstieg.md) zum Praxiseinstieg
 
 
