@@ -1,4 +1,4 @@
-# DevOps
+# [DevOps](https://de.wikipedia.org/wiki/DevOps)
 **Dev**elopment + **Op**eration**s**
 
 ## Ziele:
@@ -22,7 +22,9 @@
 * **M**easurement
 * **S**haring
 
-## DevOps-Phasen
+## 7 DevOps-Phasen
+(„Stages“ / „Lifecycle“)
+
 * Plan
 * Code
 * Build
@@ -32,7 +34,7 @@
 * Operate
 
 ## DevOps-Praktiken
-* **C**ontinuous **I**ntegration (CI)
-* **C**ontinuous **D**elivery (CD)
+* [**C**ontinuous **I**ntegration (CI)](https://de.wikipedia.org/wiki/Kontinuierliche_Integration)
+* [**C**ontinuous **D**elivery (CD)](https://de.wikipedia.org/wiki/Continuous_Delivery)
 
 => Einsatz von Git

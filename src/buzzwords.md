@@ -10,7 +10,7 @@ flowchart TB
   smarthome --> smarthealth(Smart Health)
   smarthome --> VR
   smarthome --> AR
-  smarthome --> sprache(Sprach-Erkennung & -Steuerung)
+  smarthome --> sprache(Spracherkennung & -steuerung)
   iot --> smartgrid(Smart Grid)
   iot --> smartcities(Smart Cities)
   iot --> iiot(IIoT)

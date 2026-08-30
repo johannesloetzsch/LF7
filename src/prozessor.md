@@ -24,6 +24,10 @@
 
 [Aufbau von Gattern und Addierer mit BJT-Transistioren](https://www.leisering.net/4bit_va/inhaltsverzeichnis.html#anhb)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B2482h_TNwg?si=AJIQBoJ1pH0L5520" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- https://github.com/SebLague/Digital-Logic-Sim -->
+
 
 ## [Von-Neumann-Zyklus](https://de.wikipedia.org/wiki/Von-Neumann-Zyklus)
 

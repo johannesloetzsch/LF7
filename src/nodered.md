@@ -1,6 +1,11 @@
 # Node-RED
 Low-code programming for event-driven applications
 
+![](examples/rest/nodered/nodered_rest_openapi.png)
+
+> **💻** Beispiel [flow.json](./examples/rest/nodered/nodered_flow_html.json)
+
+
 ## [Setup](https://nodered.org/docs/getting-started/)
 
 ### [via Docker](https://nodered.org/docs/getting-started/docker)
@@ -23,8 +28,6 @@ docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node
 
 * [`openapi-red`](https://flows.nodered.org/node/openapi-red) (Client)
 * [`node-red-node-swagger`](https://flows.nodered.org/node/node-red-node-swagger) (Documentation Generator)
-
-> Beispiel [flow.json](./nodered_flow_html.json)
 
 
 ### Benutzung Client
