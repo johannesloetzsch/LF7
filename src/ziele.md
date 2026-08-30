@@ -10,8 +10,7 @@ IT-Systeme funktional zu einem cyber-physischen System zusammenzuführen.**
 * Sie *informieren* sich über den **Datenfluss** an der **Schnittstelle** zwischen physischer Welt
 und IT-System sowie über die **Kommunikation in einem bestehenden Netzwerk**. Sie verschaffen sich einen Überblick über die **Energie-, Stoff- und Informationsflüsse** aller am System beteiligten Geräte und Betriebsmittel.
 
-* Die Schülerinnen und Schüler *planen* die Umsetzung des Kundenwunsches, indem sie Kri-
-terien für die Auswahl von **Energieversorgung**, **Hardware** und Software (**Bibliotheken**, **Protokolle**) aufstellen. Dazu nutzen sie **Unterlagen der technischen Kommunikation** und passen diese an.
+* Die Schülerinnen und Schüler *planen* die Umsetzung des Kundenwunsches, indem sie Kriterien für die Auswahl von **Energieversorgung**, **Hardware** und Software (**Bibliotheken**, **Protokolle**) aufstellen. Dazu nutzen sie **Unterlagen der technischen Kommunikation** und passen diese an.
 
 * Sie *führen* **Komponenten** mit dem cyber-physischen System funktional *zusammen*.
 

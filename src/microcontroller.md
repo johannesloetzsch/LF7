@@ -1,12 +1,33 @@
 # [Mikrocontroller](https://de.wikipedia.org/wiki/Mikrocontroller)
-(µController, µC, MCU)
+(µController, µC, MCU, „**Einchipmikrorechner**“)
 
-## Mikrocontroller vs [SoC](https://de.wikipedia.org/wiki/System-on-a-Chip) vs [Einplatinencomputer](https://de.wikipedia.org/wiki/Einplatinencomputer)
->Erklärung Mikrocontroller in [Videoform](https://www.youtube.com/watch?v=xd6oA8UiG7s)
+* Prozessor
+* RAM
+* [**Flash**-EEP**ROM**](https://de.wikipedia.org/wiki/Flash-Speicher)
 
->Erklärung SoC in [Videoform](https://www.youtube.com/watch?v=L4XemL7t6hg)
 
-## Microcontroller
+## [Beispiele bekannter Mikrocontroller](https://de.wikipedia.org/wiki/Liste_von_Mikrocontrollern)
+* Atmel [ATtiny, ATmega](https://de.wikipedia.org/wiki/Microchip_AVR)
+  * 8bit AVR
+
+* Espressif [ESP8266](https://de.wikipedia.org/wiki/ESP8266) ([NodeMCU](https://de.wikipedia.org/wiki/NodeMCU)), [ESP32](https://de.wikipedia.org/wiki/ESP32)
+  * 32bit Wi-Fi Controller (Xtensa LX6 oder RISC-V)
+
+* Raspberry Pi Foundation [RP2040](https://de.wikipedia.org/wiki/RP2040)
+  * 32bit ARM Cortex-M0+
+
+* STMicroelectronics [STM32](https://en.wikipedia.org/wiki/STM32)
+  * 32bit ARM Cortex-M
+
+
+## Mikrocontroller vs [SoC](https://de.wikipedia.org/wiki/System-on-a-Chip) vs Einplatinencomputer
+
+> **💡** Videoerklärung zu [Mikrocontroller](https://www.youtube.com/watch?v=xd6oA8UiG7s) und [SoC](https://www.youtube.com/watch?v=L4XemL7t6hg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xd6oA8UiG7s?si=Y36Kbizlt9FrauM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L4XemL7t6hg?si=cNZkbTtw4UWiG7ta" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Mikrocontroller
 >Vorteile:
 >1.	Kostengünstig: Microcontroller werden in kostensensitiven Projekte eingesetzt.
 >2.	Energieeffizient: Sie verbrauchen wenig Strom, was sie perfekt für batteriebetriebene Anwendungen macht.
@@ -17,7 +38,9 @@
 >2.	Eingeschränkte Funktionalität: Microcontroller sind für spezifische Aufgaben ausgelegt und bieten weniger Flexibilität für komplexe Anwendungen.
 >3.	Weniger Peripherieoptionen: Sie haben oft weniger Schnittstellen und Peripheriegeräte im Vergleich zu Einplatinencomputern.
 
-## SoC 
+## [SoC](https://de.wikipedia.org/wiki/System-on-a-Chip)
+**S**ystem-**o**n-a-**C**hip
+
 >Vorteile:
 >1. Hohe Integration: CPU, GPU, Speicher, und Peripheriegeräte auf einem Chip (kompakte Bauweise).
 >2. Energieeffizienz: Optimierter Stromverbrauch durch Integration und geringere Kommunikationsverluste.
@@ -40,19 +63,6 @@
 >2.	Kosten: Einplatinencomputer sind in der Regel teurer als Microcontroller.
 >3.	Komplexität: Die Einrichtung und Programmierung kann komplexer sein, was eine steilere Lernkurve bedeutet.
 
-## [Beispiele bekannter Mikrocontrollern](https://de.wikipedia.org/wiki/Liste_von_Mikrocontrollern)
-* Atmel [ATtiny, ATmega](https://de.wikipedia.org/wiki/Microchip_AVR)
-  * 8bit AVR
-
-* Espressif [ESP8266](https://de.wikipedia.org/wiki/ESP8266) ([NodeMCU](https://de.wikipedia.org/wiki/NodeMCU)), [ESP32](https://de.wikipedia.org/wiki/ESP32)
-  * 32bit Wi-Fi Controller (Xtensa LX6 oder RISC-V)
-
-* STMicroelectronics [STM32](https://en.wikipedia.org/wiki/STM32)
-  * 32bit ARM Cortex-M
-
-* Raspberry Pi Foundation [RP2040](https://de.wikipedia.org/wiki/RP2040)
-  * 32bit ARM Cortex-M0+
-
 
 ## Für Mikrocontroller häufig verwendete Programmiersprachen
 
@@ -60,6 +70,7 @@
 * [Rust](https://docs.rust-embedded.org/book/)
 * [MicroPython](https://docs.micropython.org/en/latest/esp32/quickref.html)
 
+> **❓❗💬** Erklären Sie, welche Eigenschaften, Vor-/Nachteile und Einsatzzwecke die verschiedenen Programmiersprachen haben.
 
 ## [Arduino](https://docs.arduino.cc/programming/)
 * [Language Reference](https://docs.arduino.cc/language-reference/)
@@ -88,4 +99,4 @@ pio device monitor -b 115200
 [platformio.ini](./microcontroller/platformio.ini) für die ESPs der Schule
 
 
-## [Simulator](https://wokwi.com/)
+## **💡** [Simulator](https://wokwi.com/)

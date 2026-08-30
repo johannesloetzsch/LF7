@@ -102,3 +102,9 @@
 ## Praxis
 
 [Schaltungen](https://www.leisering.net/4bit_va/inhaltsverzeichnis.html#anhb) für Aufbau von Gattern und Addierer mit npn-BJT-Transistioren
+
+
+
+## Übungen
+
+Logikgatter aufbauen und verstehen anhand [nandgame.com](https://nandgame.com/) 

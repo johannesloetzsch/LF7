@@ -82,7 +82,7 @@ Für die Zusammenarbeit von mehreren Personen benötigt man einen Git Server. Pr
 als Server fungieren, solange alle Nutzer diese erreichen können. Häufig werden Platformen wie GitHub, GitLab oder Gitea
 verwenden, die weitere Funktionen wie Issue-Tracking und automatisierungen (z. B. continuous integration) bieten.
 
-Um nun das lokale Repository mit dem entfernten Repository zu syncronisieren werden verschiedene Befehle benötigt.
+Um nun das lokale Repository mit dem entfernten Repository zu synchronisieren werden verschiedene Befehle benötigt.
 
 Zunächst wird das entfernte Repository mit `git remote add origin <URL>` unter dem Namen `origin` hinzugefügt.
 
