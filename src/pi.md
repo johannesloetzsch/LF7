@@ -1,9 +1,14 @@
 # Raspberry Pi
+=> [Einplatinencomputer](https://de.wikipedia.org/wiki/Einplatinencomputer)
+
 
 ## Pinout
 
+> **❗** Das [Pinout](https://en.wikipedia.org/wiki/Pinout) ist abhängig von der [Raspberry-Pi-Version](https://pinout.xyz/)
+
+> **💻** Befehl um sich das Pinout eines Rapsberry-Pi auf der Kommandozeile des Pi anzeigen zu lassen:
 ```bash
-pinout
+ pinout
 ```
 
 ```txt

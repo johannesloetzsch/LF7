@@ -4,16 +4,20 @@ Der Beispielcode [rest.py](https://github.com/johannesloetzsch/LF7/blob/main/src
 
 ## Usage
 
-```
+```sh
 git clone https://github.com/johannesloetzsch/LF7.git
 cd src/examples/rest/python
 ```
 
-```
+```sh
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
 
+python -m ensurepip
+pip install -r requirements.txt
+```
+
+```sh
 python rest.py
 ```
 
@@ -22,6 +26,6 @@ python rest.py
 ## Development
 
 To run a devserver with automatic reloading when code changed, use:
-```
+```sh
 uvicorn rest:app --reload
 ```

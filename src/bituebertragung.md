@@ -1,5 +1,8 @@
 # Bitübertragung == Physical Layer
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eq5YpKHXJDM?si=Aj4lQSt0W9KSavgW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## [Serielle Schnittstelle](https://de.wikipedia.org/wiki/Serielle_Schnittstelle)
 
 ### [UART](https://de.wikipedia.org/wiki/Universal_Asynchronous_Receiver_Transmitter)
@@ -7,9 +10,9 @@
 
 ![rs-232 oscilloscope](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Rs232_oscilloscope_trace.svg/1280px-Rs232_oscilloscope_trace.svg.png)
 
-Beim Anschließen beachten:
+Beim Anschließen bitte beachten:
 * **Spannungspegel**
-* Baudrate
+* [Baudrate](https://de.wikipedia.org/wiki/Baud)
 * *Parity-Bit*
 * *Stopp-Bit*
 
@@ -24,6 +27,9 @@ Beim Anschließen beachten:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CAN_Connecteur.svg/1920px-CAN_Connecteur.svg.png)
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/DE-9_Female.svg/1920px-DE-9_Female.svg.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AHYNxpqKqwo?si=kMgEhjATt3pTG2UR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Ethernet *Bitübertragung*
 

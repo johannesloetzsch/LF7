@@ -31,6 +31,9 @@
 > „**KI zur Rechtsberatung**“*???*
 
 
+![](https://preview.redd.it/myl68j4u6e2g1.png?width=605&auto=webp&s=c5062683ef7e13e51f01cee2b2de525dfd041e9e)
+
+
 ## Technische Grundlagen
 
 Begriffe die man kennen sollte:

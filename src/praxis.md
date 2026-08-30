@@ -2,12 +2,20 @@
 
 Material zum Erlernen von [**Python**](https://johannesloetzsch.github.io/python-tutorial/getting_started.html)
 
+> **💡** [Überlegungen](praxiseinstieg.md) zum Praxiseinstieg
+
+
+## Ressourcen
+
+* Materialsammlung zum Erlernen von [**Python**](https://johannesloetzsch.github.io/python-tutorial/getting_started.html)
+* [**Raspberry Pi**](pi.md)
+* [**Microcontroller**](microcontroller.md)
+  * [Inventar AFBB und **Frameworks** / **Toolchains**](./microcontroller/beispiele.md)
+
+
 ## Beispielprojekte
 
-<!--
-* [Ampel](https://github.com/itsso23/FI23_LF7-Projekte)
-* [esp32\_trafficlights](https://github.com/0xF3546/esp32_trafficlights)
--->
+Ergebnisse von Schülerprojekten aus dem Vorjahr:
 
 * [„Alarmanlage“](https://github.com/NicoStraube/LF7-HomeSeck) mit [ESPHome](https://esphome.io/)
 * [Morse-Decoder](https://github.com/Tablettenschrank/Morse-Decoder)
