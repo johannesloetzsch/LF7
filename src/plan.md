@@ -116,11 +116,13 @@ Programmier-Übungsaufgaben:
 * [Button](https://wokwi.com/projects/432915323107785729)
 * [7-Segment + Schalter](https://wokwi.com/projects/300210834979684872)
 
-> * **Mündliche Note**
->   * Vorstellung Projektplan
->   * Bisherige Mitarbeit
+> * **Bewertete Hausaufgabe**: SOL vom 04.09.2026
+>   * Bewertungskriterien:
+>     * [ ] Korrektheit der Implementierung
+>     * [ ] Code-Qualität
+>     * [ ] Nutzung von Git
+>     * [ ] Dokumentation (z.B. README.md)
 
 > * **Bewertung Praxisprojekt**
->   * **Note für fachliche Leistung**
->   * **Note für Mitarbeit**
-> * Projektpräsentation
+>   * **1 Note für fachliche Leistung**
+>   * **1 Note für Mitarbeit**

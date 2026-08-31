@@ -2,4 +2,6 @@ book
 
 mermaid*.js
 
+.*.swp
+
 .venv

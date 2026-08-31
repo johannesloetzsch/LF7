@@ -1,5 +1,11 @@
 # Git
 
+> 💬❓ Was ist Git?
+> * Wofür wird es benötigt?
+> * Wie verwendet man es?
+
+<!-- toc -->
+
 <!--
 ## Einordnung
 
@@ -23,11 +29,44 @@
 * **Git**
 -->
 
-## Praxis
+## Welche Befehle sollte ich kennen?
+### 2. Lehrjahr
 
-* [Download von Git](https://git-scm.com/)
-* [OhMyGit — spielerisch Git lernen](https://ohmygit.org/)
+```
+git init
 
+git clone
+
+git status
+
+git diff
+
+git add
+
+git commit
+
+git log
+
+git reset
+```
+
+### 3. Lehrjahr
+
+```
+git branch
+
+git checkout
+
+git merge
+
+git remote
+
+git fetch
+
+git pull
+
+git push
+```
 
 ## Beispiel
 Die aus meiner Sicht für Anfänger wichtigsten Operation:
@@ -45,15 +84,16 @@ cd LF10b/
 nano src/versionierung.md 
 git status
 git diff
-git restore src/versionierung.md
 
 ## Eine Datei editieren, die Änderungen betrachten…
 nano src/versionierung.md  ## man könnte auch vim benutzen
 git status
 git diff
+
 ## Die geänderte Datei für den nächsten Commit einplanen
 git add src/versionierung.md 
 git status 
+
 ## Einen neuen Commit erstellen
 git commit
 
@@ -68,46 +108,27 @@ cd myproject/
 ```
 
 
+## Lernmaterial und Praxis
+
+* Offizielle [Lehrmaterialien](https://git-scm.com/learn) und [Reference](https://git-scm.com/docs)
+* [Kurze Einfuhrung in Git](./git_nico.md)
+* [OhMyGit — spielerisch Git lernen](https://ohmygit.org/)
+* [Download von Git](https://git-scm.com/)
+
+
 ## SOL
 
 ```
 Erarbeiten Sie sich die Grundlagen zu Git.
 
-Von folgenden Subcommands sollten Sie wissen, was sie tun:
-
-
-git init
-
-git clone
-
-git status
-
-git add
-
-git diff
-
-git commit
-
-git restore
-
-
-
-
 Empfehlung: Wenn Git für sie komplett neu ist, probieren sie zum lernen gerne die ersten Level von https://ohmygit.org/
 
 
-
-
-Abgabe: Als Ergebnis wird erwartet, dass Sie zwischen folgenden beiden Aufgaben auswählen:
-
-
-
-
-Variante 1:
+Abgabe:
 
 a) erstellen Sie per "git init" ein neues git Repository
 
-b) legen Sie die Dateien aus ihrem Arduino-Projekt in dem Repository ab
+b) legen Sie die Sourcecode des von Ihnen implementieren Sortierverfahrens in dem Repository ab
 
 c) wählen Sie die Daten zum commit aus ("git add") und erstellen Sie einen commit
 
@@ -115,32 +136,15 @@ d) ändern Sie Dateien oder fügen Sie neue Dateien (z.B. eine README.md) hinzu
 
 e) erstellen Sie einen zweiten commit mit den Änderungen
 
-f) versuchen Sie Ihr git Repository auf einen Git-Server (z.B. https://github.com oder https://gitlab.com) hochzuladen. Wenn Sie erfolgreich sind, reicht als Abgabe ein Link
+f) versuchen Sie Ihr git Repository auf einen Git-Server (z.B. https://codeberg.org, https://gitlab.com, https://github.com, …) hochzuladen. Wenn Sie erfolgreich sind, reicht als Abgabe ein Link (auf ein öffentliches Repository)
 
 g) falls Sie mit f) nicht erfolgreich waren, erzeugen Sie ein zip-Archiv des Repositories und laden Sie dieses als Abgabe hoch
-
- 
-
-Variante 2:
-
-a) erstellen Sie einen Github-Account (wenn Sie noch keinen haben)
-
-b) forken Sie mein repository https://github.com/johannesloetzsch/LF7
-
-c) clonen Sie ihren Fork auf ihren Computer
-
-d) editieren Sie mindestens eine Datei (beheben Sie z.B. einen Tipp-/Rechtschreibfehler oder fügen sie zu einem Thema ergänzende Informationen wie einen nützlichen Link oder den Vorschlag einer Definition eines Begriffes hinzu)
-
-e) commiten und pushen Sie die Änderungen
-
-f) stellen Sie mir einen Pull-Request (das reicht als Abgabe)
 ```
 
 
 **Zusatzaufgabe** für Schüler, die sich bereits mit Git auskennen:
 
 Frischen Sie ihr Wissen zu [DevOps](./devops.md) auf. 
-
 
 <!--
 SOL - Definition Musterlösung
