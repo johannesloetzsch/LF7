@@ -98,7 +98,6 @@ gantt
 >     * Schaltung mit einfachen (Um-)Schaltern
 >   * [Rechnen mit Binärzahlen, Zweierpotenzen](binary.md)
 >   * [Grundlagen Git](./git.md)
->     * [DevOps](devops.md)
 >   * [HTTP](http.md), [MQTT](mqtt.md)
 
 > * **2. Klassenarbeit 27.01.2027** ~90min

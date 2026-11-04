@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "J03",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": -52.9,
+      "left": -33.8,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-led-strip",
+      "id": "strip1",
+      "top": 78.9,
+      "left": 124.8,
+      "attrs": { "pixels": "64" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "strip1:VSS", "red", [ "v0" ] ],
+    [ "esp:GND.1", "strip1:VDD", "black", [ "h0" ] ],
+    [ "esp:D15", "strip1:DIN", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}

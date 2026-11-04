@@ -55,7 +55,7 @@ Erklärung:
 
 * **Schalter geschlossen:** Es gibt zwei Leitungen über die Strom fließen kann: Den großen Pull-Up/Down-Widerstand und (nahezu) widerstandslosen Leiter mit Schalter. Da der Strom den Weg des geringsten Widerstands nimmt, fließt dieser über den geschlossenen Schalter. Somit liegt an der Signalleitung der am Schalter anliegende Pegel an.
 
-![](https://upload.wikimedia.org/wikipedia/commons/4/4e/Pull-down-Widerstand_mit_Taster.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/5/58/Pullup_Pulldown_resistor.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
 
 ## Praxis
