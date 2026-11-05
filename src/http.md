@@ -33,7 +33,7 @@ sequenceDiagram
 ## Ports
 
 * **80** http://
-* 443 https://
+* **443** https://
 
 ## Methoden (Verben)
 
@@ -73,7 +73,7 @@ sequenceDiagram
 > **💻** Einzeiler um einen Webserver zu starten, der das aktuelle Verzeichnis via HTTP ausliefert:
 >
 > ```sh
-> python -m http.server
+> python -m http.server --bind 127.0.0.1
 > ```
 
 > **💻** Einen HTTP-Request auf der Kommandozeile ausführen und den vollständigen Request+Response anschauen: 
