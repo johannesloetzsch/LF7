@@ -6,7 +6,7 @@
 * Clients („**Subscriber**“) können ein „Topic“ abonnieren
   * TCP-Verbindung wird offen gehalten
   * Server („**Broker**“) kann Clients über bestehende Verbindung über Updates informieren\
-  (sobald Broker Nachrichten von einem **Publisher** erhält)
+  (sobald Broker Nachrichten von einem „**Publisher**“ erhält)
 
 * Üblicherweise über **TCP**
   * **1883** mqtt://
@@ -62,10 +62,17 @@ sequenceDiagram
 > **💻** Broker starten, Subscriben, Publishen
 >
 > ```bash
-> mosquitto  ## start the broker
+> mosquitto  ## startet den broker [1]
 > mosquitto_sub -h 127.0.0.1 -p 1883 -u fi -P geheim -t fi/buttonGPIO2
 > mosquitto_pub -h 127.0.0.1 -p 1883 -u fi -P geheim -t fi/buttonGPIO2 -m '1'
 > ```
+
+> [1] **⚠️** Bitte [**Firewall**](https://johannesloetzsch.github.io/LF11b/netzwerk/firewalls.html) (Paketfilter/SPI) nutzen ;)
+>
+> → [Anleitung für Windows](https://support.microsoft.com/de-de/windows/security/windows-security/firewall-and-network-protection-in-the-windows-security-app) \
+> → [GUI-Beispiel für Linux](https://github.com/costales/gufw)
+
+> **💬❓** Welche Sicherheitslücke hätte obriges Setup, wenn sie es produktiv in Ihrem Netz einsetzen würden?
 
 ## Prüfungsaufgabe
 
